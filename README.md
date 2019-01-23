@@ -8,7 +8,7 @@ First of all you will need to download latest executable geckodriver to run late
 The Selenium client bindings tries to locate the geckodriver executable from the system PATH. You will need to add the directory containing the executable to the system path.
 
 2. Running the crawler
-Open terminal --> Go to the directoty backend_crawler --> execute python3 crawl.py
+Open terminal --> Go to the directoty backend_crawler --> execute: python3 crawl.py
 This will save all the event (only hackathons for now) into a csv file links.csv
 
 # Finding the word level relationship using a deep learning model:
