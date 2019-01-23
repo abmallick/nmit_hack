@@ -1,8 +1,8 @@
 # nmit_hack
 # Team: Alpha_Queue
 Repository for maintaining code of NMIT hackathon
+# clone this repo
 # Crawler
-clone this repo
 1. Environment setup
 First of all you will need to download latest executable geckodriver to run latest firefox using selenium: https://github.com/mozilla/geckodriver/releases
 The Selenium client bindings tries to locate the geckodriver executable from the system PATH. You will need to add the directory containing the executable to the system path.
