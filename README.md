@@ -24,6 +24,8 @@ The Selenium client bindings tries to locate the geckodriver executable from the
 2. Running the crawler
 Open terminal --> Go to the directoty backend_crawler --> execute: python3 crawl.py
 This will save all the event (only hackathons for now) into a csv file links.csv
+
+Crawled Links
 ![Alt text](/screenshots/total_links.png?raw=true "Crawled Links")
 
 # Finding the word level relationship using a deep learning model:
@@ -49,11 +51,13 @@ The crawler basically gives us data in unstructured format. The main idea of usi
  Now open terminal and go to directory "finding_word_tokens_using_deep_learning" --> now execute: python3 trying.py
  You can also edit the 'sentence' inside trying.py (currently "Did Uriah honestly think he could beat the game in under three hours?") to anything you'd like
  
+ Filtered Links
  ![Alt text](/screenshots/filtered_links.png?raw=true "Filtered Links")
  
 # Website
 The website can be accessed by opening the index.html file inside the website directory. The website can be used to search for the specific content and one can enable push notification, so that if there is anything new added into that category the user can be notified.
 
+Website with push notification
 ![Alt text](/screenshots/push_notification.png?raw=true "Push Notification")
 
 # Remaining Part
