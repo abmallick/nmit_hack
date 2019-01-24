@@ -24,6 +24,7 @@ The Selenium client bindings tries to locate the geckodriver executable from the
 2. Running the crawler
 Open terminal --> Go to the directoty backend_crawler --> execute: python3 crawl.py
 This will save all the event (only hackathons for now) into a csv file links.csv
+![Alt text](/screenshots/crawled_links.png?raw=true "Crawled Links")
 
 # Finding the word level relationship using a deep learning model:
 
